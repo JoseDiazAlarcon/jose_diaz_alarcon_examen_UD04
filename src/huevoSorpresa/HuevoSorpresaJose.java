@@ -61,4 +61,37 @@ public void aumentarPrecio(double aumento) throws Exception{
     }
     precio=precio + aumento;
 }
+
+    public int getUnidades() {
+        return unidades;
+    }
+
+    public double getPrecio() {
+        return precio;
+    }
+
+    public String getSorpresa() {
+        return sorpresa;
+    }
+
+    public double getPrecio_max() {
+        return precio_max;
+    }
+
+    public void setUnidades(int unidades) {
+        this.unidades = unidades;
+    }
+
+    public void setPrecio(double precio) {
+        this.precio = precio;
+    }
+
+    public void setSorpresa(String sorpresa) {
+        this.sorpresa = sorpresa;
+    }
+
+    public void setPrecio_max(double precio_max) {
+        this.precio_max = precio_max;
+    }
+
 }
